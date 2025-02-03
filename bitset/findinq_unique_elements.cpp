@@ -22,6 +22,18 @@ int main(){
             answer++;
         }
     }
+
+    /* Alternative solution is to use count
+
+    for(int i=0;i<n;i++){
+        int x;
+        std::cin>>x;
+        data[x] = 1;
+    }
+
+    return data.count();
+    */
+
     std::cout<<"Unique elements: "<<answer<<std::endl;
 
     return 0;
